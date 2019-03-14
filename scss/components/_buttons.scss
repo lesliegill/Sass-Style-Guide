@@ -1,0 +1,105 @@
+//buttons//
+
+
+ .btn--default {
+    background-color: $blue;
+    }
+ 
+ .btn--success { 
+   background-color: $success;
+  }
+
+ .btn--error {
+    background-color: $error;
+ }
+
+ .btn--warning {
+    background-color: $warning;
+    }   
+
+ .btn--info {
+     background-color: $info;    
+     }
+
+
+ .btn--default,
+ .btn--success,
+ .btn--error,
+ .btn--warning,
+ .btn--info {
+   @include btn;
+   @include mq {
+     padding:10px 30px;
+   }
+ }
+
+
+
+    //grid buttons//
+
+
+    .grid__col--12 {
+      @include flex($dir:column);
+      @include mq {
+      @include flex ($dir:row, $just:space-evenly);
+    }
+      
+
+    }
+
+    .grid__col--12.theme__colors {
+      background-color: $green;
+      @include grid-btn;
+      @include mq {
+        margin-right:10px;
+      }
+    }
+
+  
+  .grid__col--6.theme__colors {
+    background-color: $dark-blue;
+  }
+  
+   
+  .grid__col--4.theme__colors {
+    background-color:$blue;
+    }
+  
+  
+  .grid__col--3.theme__colors {
+    background-color:$purple;
+  }
+  
+  .grid__col--5.theme__colors {
+    background-color:$light-green;
+  }
+  
+  .grid__col--7.theme__colors {
+    background-color:$salmon;
+    }
+  
+  
+  
+  .grid__col--8.theme__colors {
+    background-color:$orange;
+    }
+
+
+    .centered.grid__col--7 {
+      @include mq {
+      @include center;
+    }
+  }
+  
+  
+  .grid__col--6.theme__colors,
+  .grid__col--4.theme__colors,
+  .grid__col--3.theme__colors,
+  .grid__col--5.theme__colors,
+  .grid__col--7.theme__colors,
+  .grid__col--8.theme__colors {
+    @include grid-btn;
+    @include mq {
+    text-align:center;
+  }
+}

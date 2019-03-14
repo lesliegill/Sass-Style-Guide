@@ -1,0 +1,14 @@
+//only elements you should select directly are p tags, ul tags, and the universal selector (*).
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+    text-align:left;
+    padding:0 1em;
+    line-height:1.5em;
+   
+}
+
+

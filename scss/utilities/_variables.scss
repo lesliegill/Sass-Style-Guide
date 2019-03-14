@@ -1,0 +1,39 @@
+//you must have at least fonts, breakpoints, and colors
+
+
+//fonts//
+$font-stack-primary: 'Raleway', sans-serif; 
+$font-stack-secondary: 'Bree Serif', serif;
+
+
+//descriptive color variables//
+$green:#70E8C5;
+$blue:#59E7FE;
+$grey:#646464;
+$light-grey: #C9CACA;
+$white:#fff;
+$dark-blue:#2191AF;
+$purple:#D6ABEA;
+$light-green:#8DD398;
+$salmon:#E99292;
+$orange:#ED8E65;
+
+
+//functional colors//
+$color-text-primary: $grey;
+$color-text-secondary: $white;
+$color-text-tertiary: $light-grey;
+
+
+//buttons//
+$default:#17DFFF;
+$success:#6DC164;
+$error:#E07B72;
+$warning:#FF7A2A;
+$info:#9C83C1;
+
+
+
+//media query breakpoints //
+$break-d: 769px;
+
